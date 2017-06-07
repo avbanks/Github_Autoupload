@@ -4,7 +4,7 @@ import os
 import subprocess
 import datetime
 
-USERNAME = '#####GITHUB_USERNAME######'
+USERNAME = 'avbanks'
 GITHUB_URL = 'https://github.com/{}'.format(USERNAME)
 DIR_PATH = os.path.dirname(os.path.realpath(__file__))
 
