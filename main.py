@@ -6,7 +6,10 @@ import datetime
 
 USERNAME = '#####GITHUB_USERNAME######'
 GITHUB_URL = 'https://github.com/{}'.format(USERNAME)
+#This should be changed to the directory where your Github_Autoupload folder is
 DIR_PATH = os.path.dirname('/Users/abanks/Projects/Github_AutoUpload/')
+
+
 print(DIR_PATH)
 os.chdir(DIR_PATH)
 #Get repo name from hidden config file ignoring '#'
