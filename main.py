@@ -15,7 +15,7 @@ if not os.path.isfile('./.gitauto.config'):
     print('No config file is here')
     print('Create config file .gitauto.config and add the file names of the\
           projects that should be covered by this script')
-    #create file here
+    sys.exit() 
 
 F = open("./.gitauto.config", "r")
 
